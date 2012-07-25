@@ -1,1 +1,15 @@
-build
+/neo/build
+
+
+*.vcxproj.user
+*.sdf
+*.opensdf
+*.suo
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.obj
+*.pdb
