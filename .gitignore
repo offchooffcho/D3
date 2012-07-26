@@ -1,14 +1,29 @@
-/neo/build
+#this one to shut all temporary build files
+/build/
 
+#visual studio 
 *.vcxproj.user
 *.sdf
 *.opensdf
 
+#binaries
 *.com
 *.class
 *.dll
 *.exe
-*.o
-*.so
+*.lib
+
+#build items
 *.obj
 *.pdb
+*.ilk
+*.log
+*.tlog
+*.pch
+*.exp
+*.manifest
+*.lastbuildstate
+*.unsuccessfulbuild
+
+#id software game type info generated file
+GameTypeInfo.h
